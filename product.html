@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produkt</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="site-header">
+      <div class="wrap wrap--header header">
+        <a class="logo" href="index.html">LOGO</a>
+
+        <nav class="mainnav">
+          <ul>
+            <li><a href="productlist.html">Accessories</a></li>
+            <li><a href="productlist.html">Apparel</a></li>
+            <li><a href="productlist.html">Footwear</a></li>
+            <li><a href="productlist.html">Free Items</a></li>
+            <li><a href="productlist.html">Personal Care</a></li>
+            <li><a href="productlist.html">Sporting Goods</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <label class="search"><input placeholder="Søg" /></label>
+          <span class="iconbtn"
+            ><img
+              src="img/icons/profile-user-avatar-man-person-svgrepo-com.svg"
+              alt="Profile"
+          /></span>
+          <span class="iconbtn"
+            ><img src="img/icons/heart-svgrepo-com.svg" alt="Favoritter"
+          /></span>
+          <span class="iconbtn"
+            ><img
+              src="img/icons/shopping-bag-svgrepo-com.svg"
+              alt="Shopping bag"
+          /></span>
+        </div>
+      </div>
+      <div class="accent-line"></div>
+    </header>
+    <!-- header slut -->
+
+    <main class="wrap">
+      <div class="product-layout">
+        <div class="prod-image">
+          <img src="img/acces1.webp" />
+        </div>
+
+        <aside class="prod-panel">
+          <nav class="breadcrumbs" aria-label="Brødkrumme">
+            <ol>
+              <li><a href="index.html">Shop</a></li>
+              <li aria-hidden="true">/</li>
+              <li><a href="productlist.html">Accessories</a></li>
+              <li aria-hidden="true">/</li>
+              <li aria-current="page">Produkt</li>
+            </ol>
+          </nav>
+          <!-- titel -->
+          <h1>Brown Bag</h1>
+          <!-- pris -->
+          <p class="price">800.00 DKK</p>
+          <!-- farve valg -->
+          <div class="colors" aria-label="Farver">
+            <p class="label">Farve</p>
+            <div class="swatches">
+              <button
+                class="swatch"
+                type="button"
+                aria-label="Brun"
+                data-color="brown"
+              ></button>
+              <button
+                class="swatch"
+                type="button"
+                aria-label="Sort"
+                data-color="black"
+              ></button>
+              <button
+                class="swatch"
+                type="button"
+                aria-label="Beige"
+                data-color="beige"
+              ></button>
+            </div>
+          </div>
+
+          <!-- størrelser -->
+          <fieldset class="sizes">
+            <legend>Størrelse</legend>
+
+            <div class="size-grid">
+              <label class="size"><input type="radio" name="size" /> XS</label>
+              <label class="size"><input type="radio" name="size" /> S</label>
+              <label class="size"><input type="radio" name="size" /> M</label>
+              <label class="size"><input type="radio" name="size" /> L</label>
+              <label class="size"><input type="radio" name="size" /> XL</label>
+              <label class="size"><input type="radio" name="size" /> XXL</label>
+            </div>
+          </fieldset>
+          <!-- indkøbskurv -->
+          <button class="buy">Tilføj til indkøbskurv</button>
+          <p class="product-description">
+            Lorem ipsum dolor sit amet. Cum illum itaque ab sint earum ut
+            assumenda nisi! Et rerum odio et quia consequatur est voluptatem
+            voluptatibus. 
+          </p>
+          <p>Ea deleniti ipsam 33 itaque velit non nulla praes.</p>
+          <details>
+            <summary>DETALJER & PLEJE</summary>
+            <p>Lorem ipsum tekst...</p>
+          </details>
+          <details>
+            <summary>LEVERING & BETALING</summary>
+            <p>Lorem ipsum tekst...</p>
+          </details>
+          <details>
+            <summary>RETUNERING & OMBYTNING</summary>
+            <p>Lorem ipsum tekst...</p>
+          </details>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>
